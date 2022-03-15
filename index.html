@@ -13,56 +13,56 @@
         <h1>Фукина Александра Дмитриевна - Лабораторная работа №1</h1>
         <script>
     // 1 задание 
- console.log (typeof 9);
+ console.log(typeof 9);
 // Предположение:number
 // Фактический:number
 
-console.log (typeof(1.2));
+console.log(typeof(1.2));
 // Предположение:number
 // Фактический:number
 
-console.log (typeof(NaN));
+console.log(typeof(NaN));
 // Предположение:number
 // Фактический:number
 
-console.log (typeof("Hello World"));
+console.log(typeof("Hello World"));
 // Предположение:string
 // Фактический:string
 
-console.log (typeof(true));
+console.log(typeof(true));
 // Предположение:boolean
 // Фактический:boolean
 
-console.log (typeof(2 != 1));
+console.log(typeof(2 != 1));
 // Предположение:boolean
 // Фактический:boolean
 
 
-console.log ("сыр" + "ы");
+console.log("сыр" + "ы");
 // Предположение: сыры
 // Фактический: сыры
 
-console.log ("сыр" - "ы");
+console.log("сыр" - "ы");
 // Предположение: NaN
 // Фактический: NaN
 
-console.log ("2" + "4");
+console.log("2" + "4");
 // Предположение: 24
 // Фактический: 24
 
-console.log ("2" - "4");
+console.log("2" - "4");
 // Предположение: -2
 // Фактический: -2
 
-console.log ("Сэм" + 5);
+console.log("Сэм" + 5);
 // Предположение: Сэм5
 // Фактический: Сэм5
 
-console.log ("Сэм" - 5);
+console.log("Сэм" - 5);
 // Предположение: NaN
 // Фактический: Nan
 
-console.log (99 * "шары");
+console.log(99 * "шары");
 // Предположение: NaN
 // Фактический:NaN
 
@@ -72,13 +72,13 @@ let secondSide = 6;
 let P;
 let S;
 let Otn;
-console.log (firstSide, secondSide);
-P = (firstSide+secondSide)*2;
-console.log (P);
-S = firstSide*secondSide;
-console.log (S);
+console.log(firstSide, secondSide);
+P = (firstSide+secondSide) * 2;
+console.log(P);
+S = firstSide * secondSide;
+console.log(S);
 Otn = P/S;
-console.log (Otn);
+console.log(Otn);
 
 
 // 3 задание
@@ -88,8 +88,8 @@ let far1 = 41;
 let far = cels * 9/5 + 32;
 let cels1 = (far1 - 32) * 5/9;
 
-console.log (`${cels}\xB0C соответствует ${far}\xB0F`);
-console.log (`${far1}\xB0F соответствует ${cels1}\xB0C`);
+console.log(`${cels}\xB0C соответствует ${far}\xB0F`);
+console.log(`${far1}\xB0F соответствует ${cels1}\xB0C`);
 
 // 4 задание
 
@@ -111,14 +111,14 @@ let first;
 let second;
 first = 10;
 second = 45;
-if ((first || second == 10) || (first+second == 10)) {
-console.log (true);
-}
+if ((first == 10) || (second == 10) || (first+second == 10)) {
+console.log(true);
+} else console.log(false);
 
 // 6 задание 
 let ovechka=prompt ('Введите количество овечек', 1);
 console.log (ovechka);
-let kolvo = ' ';
+let kolvo = '\t';
 for (let i = 1; i <= ovechka; i++) {
     kolvo += i + ' овечка...';
     }
